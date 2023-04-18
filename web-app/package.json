@@ -1,0 +1,25 @@
+{
+  "name": "yet-another-simple-image-converter",
+  "version": "1.0.0",
+  "description": "Convert & Resize your images into PNG, JPG, BMP, WEBP and more using YASIC (Yet Another Simple Image Converter 🔥)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haikukoten/yet-another-simple-image-converter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haikukoten/yet-another-simple-image-converter/issues"
+  },
+  "homepage": "https://github.com/haikukoten/yet-another-simple-image-converter#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "image-converter-pro": "^1.0.2"
+  }
+}
