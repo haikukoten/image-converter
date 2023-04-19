@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "web-app/app.js", "use": "@vercel/node" },
+    { "src": "web-app/**/*.html", "use": "@vercel/static" },
     { "src": "blog/**/*.html", "use": "@vercel/static" }
   ],
   "routes": [
