@@ -1,16 +1,9 @@
 {
   "version": 2,
-  "functions": {
-    "web-app/**/*.{html,css,js,png}": {
-      "runtime": "@vercel/static"
-    },
-    "blog/**/*.html": {
-      "runtime": "@vercel/static"
-    }
-  },
+  "cleanUrls": true,
   "routes": [
-    { "src": "/blog/(.*)", "dest": "/blog/$1" },
-    { "src": "/(?!blog)(.*)", "dest": "/web-app/$1" },
+    { "src": "/blog/(.*)", "dest": "/blog/\$1" },
+    { "src": "/(?!blog)(.*)", "dest": "/web-app/\$1" },
     { "handle": "filesystem" }
   ]
 }
